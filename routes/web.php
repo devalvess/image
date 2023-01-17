@@ -14,5 +14,5 @@ use App\Http\Controllers\ImageController;
 |
 */
 
-Route::get('/index', [ImageController::class, 'index']);
+
 Route::post('/images', [ImageController::class, 'image']);
