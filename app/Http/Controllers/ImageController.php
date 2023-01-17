@@ -13,7 +13,7 @@ class ImageController extends Controller
 
     public function image(Request $request)
     {
-        $request->image1->storeAs('public','file.jpg');
-        $request->image2->storeAs('public','file.jpg');
+        $request->image1->storeAs('public/images','file.jpg');
+        $request->image2->storeAs('public/images','file.jpg');
     }
 }
